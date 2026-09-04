@@ -22,7 +22,7 @@ public class ActorDemo {
 
     /** ข้อความหนึ่งใบที่ส่งเข้าคิว */
     private static class Msg {
-        final int amount;
+        final int amount; 
         final boolean poison;   // สัญญาณบอกให้ actor เลิกทำงาน
 
         Msg(int amount, boolean poison) {
